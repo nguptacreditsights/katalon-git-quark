@@ -6,18 +6,22 @@
    <elementGuidId>5a7b08a6-707c-4c3c-9847-6bd1f7486b72</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='boundlist-1276-listEl']/ul/li[3]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>li.x-boundlist-item.x-boundlist-item-over</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='boundlist-1276-listEl']/ul/li[3]</value>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Admin' or . = 'Admin')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

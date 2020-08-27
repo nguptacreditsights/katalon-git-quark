@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ext-gen1978']</value>
+         <value>//table[2]/tbody/tr/td[2]/table/tbody/tr/td[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

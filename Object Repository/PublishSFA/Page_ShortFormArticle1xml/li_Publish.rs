@@ -6,18 +6,22 @@
    <elementGuidId>a6f64397-e064-4275-a389-80f3553d56c5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='boundlist-1273-listEl']/ul/li[5]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>li.x-boundlist-item.x-boundlist-item-over</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='boundlist-1273-listEl']/ul/li[5]</value>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Publish' or . = 'Publish')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
