@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CS-T401</description>
+   <name>As a Covenants subscriber, I would like to access a covenants landing page so that I can view everything related to the product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>459790c0-bcb7-4838-b927-ce804da835af</testCaseGuid>
+</TestCaseEntity>

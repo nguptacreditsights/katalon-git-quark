@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Calculator_toggle-button-inner active</name>
+   <tag></tag>
+   <elementGuidId>3163a216-dfd2-4dda-9fb0-69453f892126</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/section/div/div/div/div/div[4]/div/div[2]/div/button/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.toggle-button-inner.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>toggle-button-inner active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page-container standard-page&quot;]/div[@class=&quot;page-body&quot;]/div[2]/section[@class=&quot;section-container pt-4 pb-4&quot;]/div[@class=&quot;section-content&quot;]/div[@class=&quot;column-container&quot;]/div[@class=&quot;column col-md-12&quot;]/div[1]/div[@class=&quot;my-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-2 col-xs-6 col-sm-3&quot;]/div[@class=&quot;form-static-value&quot;]/button[@class=&quot;toggle-button-outer active&quot;]/div[@class=&quot;toggle-button-inner active&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/section/div/div/div/div/div[4]/div/div[2]/div/button/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/div</value>
+   </webElementXpaths>
+</WebElementEntity>
