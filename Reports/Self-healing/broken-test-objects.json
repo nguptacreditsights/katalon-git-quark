@@ -169,6 +169,86 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/PublishSFA/Page_ShortFormArticle1xml/div__ext-gen2015_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PublishSFA/Page_Quark Publishing Platform Web Client/input_Title_articleTitle",
+      "brokenLocator": "//input[@id\u003d\u0027articleTitle\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PublishSFA/Page_Quark Publishing Platform Web Client/input_Title_articleTitle_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LFAAndSFA/Page_LFA-1.xml/div_Teaser__f45c98b5-1054-4afc-a40a-fdc6533a311c",
+      "brokenLocator": "//div[@id\u003d\u0027_f45c98b5-1054-4afc-a40a-fdc6533a311c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Teaser\u0027])[2]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LFAAndSFA/Page_LFA-1.xml/div_Teaser__f45c98b5-1054-4afc-a40a-fdc6533a311c_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DetailsLFA/Page_LFA-5705012021014011.xml/div_Teaser",
+      "brokenLocator": "//div[@id\u003d\u0027_6c3f01bb-c0ea-454f-b57a-6c3edda02977\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027_5955b252-ffba-49df-939f-164c661501b0\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DetailsLFA/Page_LFA-5705012021014011.xml/div_Teaser_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DetailsLFA/Page_LFA-5705012021014011.xml/div_Bullet Section__e223540e-433f-41c1-9749_218894",
+      "brokenLocator": "//div[@id\u003d\u0027_e223540e-433f-41c1-9749-0217e767707c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027_0f84a94c-3648-4653-9e2f-28f481764d1d\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DetailsLFA/Page_LFA-5705012021014011.xml/div_Bullet Section__e223540e-433f-41c1-9749_218894_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/input__combobox-1207-inputEl",
+      "brokenLocator": "//input[@id\u003d\u0027combobox-1207-inputEl\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[2]/tbody/tr/td[2]/table/tbody/tr/td/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/input__combobox-1207-inputEl_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/li_Publish",
+      "brokenLocator": "//div[@id\u003d\u0027boundlist-1221-listEl\u0027]/ul/li[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Approved\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/li_Publish_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/li_Admin",
+      "brokenLocator": "//div[@id\u003d\u0027boundlist-1224-listEl\u0027]/ul/li[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027abrady\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/li_Admin_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/a_Save",
+      "brokenLocator": "//a[@id\u003d\u0027button-1215\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027:\u0027])[8]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SaveAndCheckIn/Page_LFA-2405012021050637.xml/a_Save_neighbor.png"
     }
   ]
 }
