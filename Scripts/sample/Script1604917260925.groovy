@@ -14,19 +14,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+println(Username)
 
-WebUI.navigateToUrl('https://editor.qa.creditsights.com/workspace/login.qsp')
+TestData data = findTestData('Data Files/CSTestData')
 
-WebUI.maximizeWindow()
+row = getRowIndexByCellValue(data, 'TestcaseID', 'T30')
 
-WebUI.setText(findTestObject('Object Repository/LFAAndSFA/Page_Quark Publishing Platform Web Client/input_User Name_userName'), 
-    name)
+println(row)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LFAAndSFA/Page_Quark Publishing Platform Web Client/input_Password_Password'), 
-    '78qjfIw6l1RHr02AibSyVQ==')
+Username = data.getValue('Username', row)
 
-WebUI.click(findTestObject('Object Repository/LFAAndSFA/Page_Quark Publishing Platform Web Client/button_Log On'))
+println(Username)
+
+WebUI.callTestCase(findTestCase('Publish SFA'), [('row') : findTestData('CSTestData').getValue('TestcaseID', 1), ('SFATitle') : 'Title: SFA'
+        , ('Password') : 'park4701', ('Market') : GlobalVariable.QuarkLoginPage], FailureHandling.STOP_ON_FAILURE)
+
+int getRowIndexByCellValue(TestData testdata, String columnName, String rowCellValue) {
+    for (def index : (1..testdata.getRowNumbers())) {
+        def value = testdata.getValue(columnName, index)
+
+        if (value.equals(rowCellValue)) {
+            return index
+        }
+    }
+    
+    return 0
+    
+    WebUI.callTestCase(findTestCase('Publish SFA'), [('row') : findTestData('CSTestData').getValue('TestcaseID', 1), ('SFATitle') : 'Title: SFA'
+            , ('Password') : 'park4701', ('Market') : GlobalVariable.QuarkLoginPage], FailureHandling.STOP_ON_FAILURE)
+}
 

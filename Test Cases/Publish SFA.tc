@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Publish SFA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d77dd34-9f8c-46b2-b27c-2cd25a408ee0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CSTestData').getValue('TestcaseID', 1)</defaultValue>
+      <description></description>
+      <id>6d3f3bb4-6362-43b7-8ab4-0123bd217db1</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'Title: SFA'</defaultValue>
+      <description></description>
+      <id>614a29a9-369a-4bf5-81a1-8fe65a9f5852</id>
+      <masked>false</masked>
+      <name>SFATitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'park4701'</defaultValue>
+      <description></description>
+      <id>30aa7d4d-20f9-468c-9ee5-01c74551a856</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.QuarkLoginPage</defaultValue>
+      <description></description>
+      <id>14167d9b-b814-4793-ba85-799ba377d4f8</id>
+      <masked>false</masked>
+      <name>Market</name>
+   </variable>
+</TestCaseEntity>
