@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>StagingQA</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://editor.qa.creditsights.com/workspace/login.qsp'</initValue>
+      <name>QuarkLoginPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www-qa.staging.creditsights.com/login'</initValue>
+      <name>LTESiteLoginPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://admin-qa.staging.creditsights.com'</initValue>
+      <name>ClassicAdminLoginPage</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reassign Master Companies or Updating Master Company name should update Last Modified Date for users</description>
+   <name>T757_UpdateLastModified</name>
+   <tag>T757</tag>
+   <comment></comment>
+   <testCaseGuid>b92e279b-f984-47ad-bbd4-babbe5bc6678</testCaseGuid>
+   <variable>
+      <defaultValue>'a.higherpower'</defaultValue>
+      <description></description>
+      <id>2d5e3b60-4a66-45f4-a061-5eac57832e40</id>
+      <masked>false</masked>
+      <name>admin</name>
+   </variable>
+   <variable>
+      <defaultValue>'Austin, Monroe'</defaultValue>
+      <description></description>
+      <id>af00d084-18fc-4e5d-bb66-a6cc6463f861</id>
+      <masked>false</masked>
+      <name>salesperson</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bechtelar, Ebony'</defaultValue>
+      <description></description>
+      <id>1cd80387-312a-45a7-a464-d10aa484f6b9</id>
+      <masked>false</masked>
+      <name>newsalesperson</name>
+   </variable>
+</TestCaseEntity>
